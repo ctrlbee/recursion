@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf8">
+    <title>Test Page</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="src/getElementsByClassName.js"></script>
+  </head>
+  
+
+  <body class="body">
+  <header class="container header" >
+    Header
+  </header>
+  <section class="container">
+  <p class="targetClassName">foo</p>
+  <p class="otherClassName targetClassName">bar</p>
+  <p><p class="targetClassName">baz</p></p>
+  <p><p class="targetClassName"><p class="targetClassName"></p></p></p>
+  <p><p></p><p><p class="targetClassName"></p></p></p>
+  <p><p class="targetClassName"></p><p class="targetClassName"></p></p>
+  <p><div class="somediv"><div class="innerdiv"><span class="targetClassName">yay</span></div></p>
+ </section>
+</div>
+</body>
+</html>
